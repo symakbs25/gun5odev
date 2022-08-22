@@ -5,32 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+  
 
 <style>
+    
+    .baslik{
+        background-color: bisque;
+        color: brown;
+        border-radius: 200px;
+        width: 80%;
+        height: 80%;
+        padding: 5%;
+        margin: auto;
+        text-align: center;
+       
+
+    }
+    #kutu2{
+        background-color: antiquewhite;
+        color:blueviolet;
+        width: 15%;
+        height: 10%;
+        border-radius: 50px;
+        border: 1px solid black;
+        text-align: center;
+       
+        
+    }
+    
     #kutukapla
    {
-    width: 80%;
+    width: 100%;
     height: 80%;
-    margin: auto;
     display: flex;
     /*direction: rtl;*/
     flex-direction: row;
     flex-wrap: wrap;
-
+    line-height: 30px;
+    margin:auto;
 
    } 
    .kutu{
     width: 200px;
         height: 300px;
         background-color: beige;
-       
+        border-radius: 50px;
         border: 1px solid black;
-        color: black;
+        color:black;
         text-align:center;
         line-height: 30px;
         margin: 5px;
+    
+    }
 
-   }
    img{
     margin-top: 2px;
     border-radius: 50%;
@@ -39,128 +66,161 @@
 
    
    p{
-  color:rgb(109, 79, 41);
+  color:brown;
 
   font-style:bold;
 
    }
-   nav{
+   .nav{
+    background-color:bisque;
     color:brown;
-
     text-align: center;
-    border: 2px solid black;
     width: 80%;
     margin:auto;
     margin-top: 50px ;
    }
+   .footer{
+     background-color:rgb(107, 74, 34);
+     color: black;
+     font-size: larger;
+     padding-top: 50px;
+    border-radius: 50%;
+    border: 4px solid burlywood;
+    text-align: center;
+    width:100%;
+    height:80px;
+
+   }
+   .p3{
+    background-color: blanchedalmond;
+    font-style: italic;
+    border-radius: 40%;
+    border: 1px solid rgb(154, 107, 46);
+    width: 500px;
+    height: 80px;
+    padding: 10px;
+   }
+
+
+
 </style>
 
 </head>
 <body>
-    <nav>
-        <h1>BTK Akademi Yaz Kampı İlk Hafta Çalışmaları</h1>
-    </nav>
+    
+        <h1 class="baslik" >BTK Akademi Yaz Kampı İlk Hafta Çalışmaları</h1>
 
+        <div id="kutu2">
+         <a href="ders1.html">Şeymanur AKBAŞ</a></a>
+        </div>
+        <div id="kutu2">
+          <a href="ders2.html">Özge KAPLAN</a>
+        </div>
+        <div  id="kutu2">
+            <a href="ders3.html">Ceylan SARIKAYA</a>
+        </div>
+    
+<nav class="nav" >
 <div id="kutukapla">
  
-    <div class="kutu"><img src="1.jpeg" width="150px" alt="">
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/1.jpeg" width="150px" alt="">
         
         <p>Özge KAPLAN</p>
-        <p3><a href="https://github.com/ozgekpln " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://ozgekpln.github.io/gun4/ " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/ozgekpln " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://ozgekpln.github.io/gun4/ " >Çalışmalar</a></p3>
 
 
     </div>
-    <div class="kutu"> <img src="2.jpeg" width="150px" alt="">
+    <div class="kutu"> <img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/2.jpeg" width="150px" alt="">
         <p>Melik KARACA</p>
-        <p3><a href="https://github.com/mkaraca25 " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://mkaraca25.github.io/html-css-js/ " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/mkaraca25 " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://mkaraca25.github.io/html-css-js/ " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="7.jpeg" height="150px" width="150px" alt="">
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/7.jpeg" height="150px" width="150px" alt="">
         <p>Miraç SANCI</p>
-        <p3><a href="https://github.com/Miracsanci   " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://miracsanci.github.io/Day4HomeWork/ " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/Miracsanci   " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://miracsanci.github.io/Day4HomeWork/ " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"> <img src="3.jpeg" width="150px" alt="">
+    <div class="kutu"> <img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/3.jpeg" width="150px" alt="">
         <p>Zeynep ÇEVİK</p>
-        <p3><a href="https://github.com/zzeynepcvk" >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://github.com/zzeynepcvk " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/zzeynepcvk" >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://github.com/zzeynepcvk " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="4.jpeg" height="150px" width="150px" alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/4.jpeg" height="150px" width="150px" alt=""> 
         <p>Ceylan SARIKAYA</p>
-        <p3><a href="https://github.com/srky974  " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://github.com/srky974/Btk-Akademi-React " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/srky974  " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://github.com/srky974/Btk-Akademi-React " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="5.jpeg" width="150px" height="150px" alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/5.jpeg" width="150px" height="150px" alt=""> 
         <p>Umut TOPALAK</p>
-        <p3><a href="www.github.com/umuttopalak " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://github.com/umuttopalak/homework " >Repo</a></p3>
+        <p3 class="p3"><a href="www.github.com/umuttopalak " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://github.com/umuttopalak/homework " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="8.jpeg" height="150px" width="150px"> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/8.jpeg" height="150px" width="150px"> 
         <p>Gamze AKTAŞ</p>
-        <p3><a href="https://gamzeaktass.github.io/Ki-iselsehirsayfas-/" >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://gamzeaktass.github.io/habersayfam/ " >Repo</a></p3>
+        <p3 class="p3"><a href="https://gamzeaktass.github.io/Ki-iselsehirsayfas-/" >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://gamzeaktass.github.io/habersayfam/ " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="9.jpeg" width="150px" alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/9.jpeg" width="150px" alt=""> 
         <p>Şeymanur AKBAŞ</p>
-        <p3><a href="https://github.com/symakbs25 " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://symakbs25.github.io/g-n4/ " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/symakbs25 " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://symakbs25.github.io/g-n4/ " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="10.jpeg" height="150px" width="150px"  alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/10.jpeg" height="150px" width="150px"  alt=""> 
         <p>Ömer GÜNDÜZ</p>
-        <p3><a href="https://github.com/omergndz25/gun4-deneme  " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://github.com/omergndz25/3.gun " >Repo</a></p3>
-
+        <p3 class="p3"><a href="https://github.com/omergndz25/gun4-deneme  " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://github.com/omergndz25/3.gun " >Çalışmalar</a></Çalışmalar</p3>
     </div>
-    <div class="kutu"><img src="11.jpeg" width="150px" height="150px" alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/11.jpeg" width="150px" height="150px" alt=""> 
         <p>Eyyüp MÜJDECİ</p>
-        <p3><a href="https://github.com/eyyup25/habelersayfam " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://github.com/eyyup25/turkiyesehirleri " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/eyyup25/habelersayfam " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://github.com/eyyup25/turkiyesehirleri " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="6.jpeg" width="150px" height="150px" alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/6.jpeg" width="150px" height="150px" alt=""> 
         <p>Hakan TERCANLI</p>
-        <p3><a href="https://github.com/HaKaN190https://github.com/ " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://github.com/HaKaN190/btkgun4son " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/HaKaN190https://github.com/ " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://github.com/HaKaN190/btkgun4son " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="13.jpeg" width="150px" alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/13.jpeg" width="150px" alt=""> 
         <p>Elif Beyza KÖFTEGÜL</p>
-        <p3><a href="https://elfbyzkftgl.github.io/seh-ryeni/  " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://elfbyzkftgl.github.io/haberlersayfam/   " >Repo</a></p3>
+        <p3 class="p3"><a href="https://elfbyzkftgl.github.io/seh-ryeni/  " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://elfbyzkftgl.github.io/haberlersayfam/   " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="14.jpeg" width="150px" height="150px" alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/14.jpeg" width="150px" height="150px" alt=""> 
         <p>Ekmel KURT</p>
-        <p3><a href="https://github.com/ekmelkurt" >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://github.com/ekmelkurt/turkiyesehirleri " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/ekmelkurt" >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://github.com/ekmelkurt/turkiyesehirleri " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="15.jpeg" width="150px" alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/15.jpeg" width="150px" alt=""> 
         <p>Erdem DAYAN</p>
-        <p3><a href="https://github.com/eridiemmm2525 " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://eridiemmm2525.github.io/g-n4-devi/ " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/eridiemmm2525 " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://eridiemmm2525.github.io/g-n4-devi/ " >Çalışmalar</a></p3>
 
     </div>
-    <div class="kutu"><img src="16.jpeg" width="150px" height="150px" alt=""> 
+    <div class="kutu"><img src="https://raw.githubusercontent.com/symakbs25/gun5odev/main/16.jpeg" width="150px" height="150px" alt=""> 
         <p>Nurullah IŞIK</p>
-        <p3><a href="https://github.com/nurullah-isik1 " >GitHub Hesabı</a></p3> <br>
-        <p3><a href="https://github.com/nurullah-isik1/gun-3 " >Repo</a></p3>
+        <p3 class="p3"><a href="https://github.com/nurullah-isik1 " >GitHub Hesabı</a></p3> <br>
+        <p3 class="p3"><a href="https://github.com/nurullah-isik1/gun-3 " >Çalışmalar</a></p3>
 
     </div>
     
 
 
 </div>
-<footer>
-    CopyRight &copy; 2022
+</nav>
+<footer class="footer">
+    CopyRight &copy; Şeymanur AKBAŞ / Özge KAPLAN / Ceylan SARIKAYA
 </footer>
 
     
